@@ -18,7 +18,7 @@ namespace TeamProjectAPI.Data
 
             modelBuilder.Entity<TeamMember>().HasData(
                 new TeamMember { Id = 1, FullName = "Rohit Vijai", Birthdate = new DateTime(2003, 7, 11), CollegeProgram = "Computer Information Technology", YearInProgram = "Junior", Email = "vijairt@mail.uc.edu" },
-                new TeamMember { Id = 2, FullName = "Jack Baker", Birthdate = new DateTime(2001, 8, 22), CollegeProgram = "Computer Information Technology", YearInProgram = "Senior", Email = "jack.baker@student.edu" }
+                new TeamMember { Id = 2, FullName = "Jack Baker", Birthdate = new DateTime(2004, 8, 26), CollegeProgram = "Data Technologies", YearInProgram = "Junior", Email = "baker5j5@mail.uc.edu" }
             );
 
             modelBuilder.Entity<Hobby>().HasData(
